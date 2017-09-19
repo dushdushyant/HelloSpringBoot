@@ -23,4 +23,9 @@ public class SimpleController {
         
         return "page1";
     }
+	
+	@RequestMapping("/sample1")
+	public String sample1(){
+		return "sample1"; 
+	}
 }
