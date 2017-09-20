@@ -1,0 +1,61 @@
+/* .testClass td  .button {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  padding: 6px 25px 0px 20px;
+  margin: 10px 8px 20px 0px;
+  display: inline-block;
+  float: right;
+  text-decoration: none;
+  width: 50px; height: 27px; 
+  -webkit-border-radius: 5px; 
+  -moz-border-radius: 5px; 
+  border-radius: 5px; 
+  background-color: #3a57af; 
+  -webkit-box-shadow: 0 3px rgba(58,87,175,.75); 
+  -moz-box-shadow: 0 3px rgba(58,87,175,.75); 
+  box-shadow: 0 3px rgba(58,87,175,.75);
+  transition: all 0.1s linear 0s; 
+  top: 0px;
+  position: relative;
+}
+
+.testClass td  .button:hover {
+  top: 3px;
+  background-color:#2e458b;
+  -webkit-box-shadow: none; 
+  -moz-box-shadow: none; 
+  box-shadow: none;
+  
+} */
+.content-body {	
+	padding: 6px 25px 0px 20px;
+	margin: 10px 8px 20px 0px;
+	
+}
+
+.well table {
+	text-align: left;
+}
+
+.kp-form{
+	/* padding: 50px 25px 0px 200px; */
+	margin: 0px 8px 20px 0px;
+	border: thin;
+	border-color: #000;
+}
+.well-lg{
+	padding: 10px 10px 10px 10px;
+	margin-right: 50%;
+	margin-left: 10%;
+}
+#content-body{
+	padding: 10px 10px 10px 10px;
+}
+
+h1 {
+    font-family: 'Abril Fatface';font-size: 40px;
+}
+h2 {
+    font-family: 'Abril Fatface';font-size: 25px;
+}
