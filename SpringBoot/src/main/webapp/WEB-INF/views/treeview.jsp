@@ -73,7 +73,7 @@
 			// Your logic goes here
 			/* alert('ddd ' + data.text); */
 			
-			$("#tree-details").html(data.text);
+			$("#tree-details").html('Selected tree view <br>'+data.text);
 		});
 
 	});
@@ -94,10 +94,10 @@ if(session.getAttribute("loginSession") != null){
 
 				<div class="container">
 					<div class="row">
-						<div class="col-xs-6" style="margin-right: 20px;">
+						<div class="col-xs-6" style="margin-right: 20px;width: 30%;">
 							<div id="treeview1"></div>
 						</div>
-						<div class="col-xs-6">
+						<div class="col-xs-6" style="font-weight: bold;vertical-align: middle;margin-top:50px;color:blue;">
 							<div id="tree-details"></div>
 						</div>
 					</div>
