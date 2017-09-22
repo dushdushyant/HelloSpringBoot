@@ -28,4 +28,9 @@ public class SimpleController {
 	public String sample1(){
 		return "sample1"; 
 	}
+	
+	@RequestMapping("/treeview")
+	public String treeView(){
+		return "treeview"; 
+	}
 }

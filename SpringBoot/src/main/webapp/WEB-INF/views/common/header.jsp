@@ -47,18 +47,7 @@ try{
 <style>
 </style>
 
-<!-- <script type="text/javascript">
-$(document).ready(function() {
-	var initial='A';
-	var status=$.session.get('loginSession').loginStatus;
-	alert(status);
-	  if(initial=='A'){
-	  $(".glyphicon-user").replaceWith("fa");
-	  }else{
-	  /* $(".glyphicon-user").replaceWith("Your Account"); */
-	  }
-});
-</script> -->
+	
 </head>
 <body>
 	<div id="logo">
@@ -108,7 +97,7 @@ $(document).ready(function() {
 
 						<ul class="dropdown-menu">
 							<li><a href="<%=baseUrl%>/picking/">Sjhd</a></li>
-							<li><a href="#">Status </a></li>
+							<li><a href="/treeview">Treeview </a></li>
 							<li class="active"><a href="#">Reports</a></li>
 						</ul></li>
 					<li class="dropdown"><a href="#" class="dropdown-toggle"
