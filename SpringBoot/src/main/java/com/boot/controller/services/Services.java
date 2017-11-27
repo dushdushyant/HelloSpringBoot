@@ -34,6 +34,12 @@ public class Services {
 		
 	}
 	
+	@GetMapping("/treeview")
+	public String getTreeViewData(){
+		return "Hello: ";
+		
+	}
+	
 	@PostMapping(value = "/posteg")
 	public String postData(@RequestBody String input){
 		System.out.println("Post IP: "+input);
